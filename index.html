@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Student Portfolio | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-page">
+  <div id="loading-screen">
+    <span id="loading-typing"></span>
+    <div id="particle-burst"></div>
+  </div>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Portfolio</a>
+      <ul>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="theme-toggle" aria-label="Toggle Dark/Light Mode"></button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Hi, I'm <span id="hero-name">Your Name</span></h1>
+      <h2>
+        <span class="typed-tagline"></span>
+      </h2>
+      <button class="explore-btn" onclick="location.href='about.html'">Explore Portfolio</button>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-icons">
+      <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="icon-instagram"></i></a>
+      <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="icon-github"></i></a>
+      <a href="mailto:youremail@example.com" aria-label="Email"><i class="icon-email"></i></a>
+    </div>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
